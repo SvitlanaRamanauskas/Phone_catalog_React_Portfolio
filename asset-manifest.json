@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5c1ae271.css",
+    "main.js": "./static/js/main.f03575a6.js",
+    "static/media/CartSmall.svg": "./static/media/CartSmall.9229aff47f1d9860eb99.svg",
+    "static/media/Favourites-Heart-Like.svg": "./static/media/Favourites-Heart-Like.b9788a09ca873316b2f1.svg",
+    "static/media/Favourites-Filled-Heart-Like.svg": "./static/media/Favourites-Filled-Heart-Like.d554a185325e4fb06092.svg",
+    "static/media/Plus.svg": "./static/media/Plus.5a5c998338fb9f754083.svg",
+    "static/media/Slider-button-Default-right.svg": "./static/media/Slider-button-Default-right.c7196a9a19e2298fe8ce.svg",
+    "static/media/Slider-button-Disabled-right.svg": "./static/media/Slider-button-Disabled-right.7f17c2b687ac4deb94ac.svg",
+    "static/media/Chevron-Arrow-Right--disabled.svg": "./static/media/Chevron-Arrow-Right--disabled.e028d3889646e0b5e56c.svg",
+    "static/media/Chevron-Arrow-Right.svg": "./static/media/Chevron-Arrow-Right.70f42d77d4895623e71b.svg",
+    "static/media/Minus--disabled.svg": "./static/media/Minus--disabled.fa9be0217c5b484c0252.svg",
+    "static/media/Minus.svg": "./static/media/Minus.d40559547c358943a83b.svg",
+    "index.html": "./index.html",
+    "main.5c1ae271.css.map": "./static/css/main.5c1ae271.css.map",
+    "main.f03575a6.js.map": "./static/js/main.f03575a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c1ae271.css",
+    "static/js/main.f03575a6.js"
+  ]
+}
