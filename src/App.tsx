@@ -122,28 +122,28 @@ export const App = () => {
           </Link>
 
           <nav className="nav header__nav">
-            <li className="nav__list">
-              <ul className="nav__item">
+            <ul className="nav__list">
+              <li className="nav__item">
                 <NavLink to="/" className={getActiveNavLink}>
                   home
                 </NavLink>
-              </ul>
-              <ul className="nav__item">
+              </li>
+              <li className="nav__item">
                 <NavLink to="/phones" className={getActiveNavLink}>
                   phones
                 </NavLink>
-              </ul>
-              <ul className="nav__item">
+              </li>
+              <li className="nav__item">
                 <NavLink to="/tablets" className={getActiveNavLink}>
                   tablets
                 </NavLink>
-              </ul>
-              <ul className="nav__item">
+              </li>
+              <li className="nav__item">
                 <NavLink to="/accessories" className={getActiveNavLink}>
                   accessories
                 </NavLink>
-              </ul>
-            </li>
+              </li>
+            </ul>
           </nav>
         </div>
 
@@ -238,8 +238,8 @@ export const App = () => {
 
       {asideIsOpen && (
         <aside id="menu" className="burger-menu">
-          <li className="nav__list burger-menu__list">
-            <ul className="nav__item burger-menu__item">
+          <ul className="nav__list burger-menu__list">
+            <li className="nav__item burger-menu__item">
               <NavLink
                 to="/"
                 className={getActiveBurgerLinks}
@@ -247,8 +247,8 @@ export const App = () => {
               >
                 home
               </NavLink>
-            </ul>
-            <ul className="nav__item burger-menu__item">
+            </li>
+            <li className="nav__item burger-menu__item">
               <NavLink
                 to="/phones"
                 className={getActiveBurgerLinks}
@@ -256,8 +256,8 @@ export const App = () => {
               >
                 phones
               </NavLink>
-            </ul>
-            <ul className="nav__item burger-menu__item">
+            </li>
+            <li className="nav__item burger-menu__item">
               <NavLink
                 to="/tablets"
                 className={getActiveBurgerLinks}
@@ -265,8 +265,8 @@ export const App = () => {
               >
                 tablets
               </NavLink>
-            </ul>
-            <ul className="nav__item burger-menu__item">
+            </li>
+            <li className="nav__item burger-menu__item">
               <NavLink
                 to="/accessories"
                 className={getActiveBurgerLinks}
@@ -274,8 +274,8 @@ export const App = () => {
               >
                 accessories
               </NavLink>
-            </ul>
-          </li>
+            </li>
+          </ul>
 
           <div className="burger-menu__icons-wrapper">
             <NavLink
@@ -326,8 +326,8 @@ export const App = () => {
           </Link>
 
           <nav className="nav footer__nav">
-            <li className="nav__list footer__list">
-              <ul className="nav__item footer__item">
+            <ul className="nav__list footer__list">
+              <li className="nav__item footer__item">
                 <a
                   href="
                   https://github.com/SvitlanaRamanauskas"
@@ -336,8 +336,8 @@ export const App = () => {
                 >
                   github
                 </a>
-              </ul>
-              <ul className="nav__item footer__item">
+              </li>
+              <li className="nav__item footer__item">
                 <a
                   href="https://github.com/SvitlanaRamanauskas"
                   className="nav__link"
@@ -346,8 +346,8 @@ export const App = () => {
                 >
                   contacts
                 </a>
-              </ul>
-              <ul className="nav__item footer__item">
+              </li>
+              <li className="nav__item footer__item">
                 <a
                   href="https://github.com/SvitlanaRamanauskas"
                   className="nav__link"
@@ -356,8 +356,8 @@ export const App = () => {
                 >
                   rights
                 </a>
-              </ul>
-            </li>
+              </li>
+            </ul>
           </nav>
 
           {backToTopIsVisible && (
