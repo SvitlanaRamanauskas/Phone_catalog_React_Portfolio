@@ -35,10 +35,6 @@ export const App = () => {
     0,
   );
 
-  const toggleBurgerButton = () => {
-    setAsideIsOpen(!asideIsOpen);
-  };
-
   const getActiveNavLink = ({ isActive }: { isActive: boolean }) => {
     return cn('nav__link', { 'nav__link--isActive': isActive });
   };
@@ -84,6 +80,11 @@ export const App = () => {
       top: 0,
       behavior: 'smooth',
     });
+  };
+
+  const toggleBurgerButton = () => {
+    window.scrollTo(0, 0);
+    setAsideIsOpen(!asideIsOpen);
   };
 
   const [searchParams, setSearchParams] = useSearchParams();
@@ -329,7 +330,7 @@ export const App = () => {
               <ul className="nav__item footer__item">
                 <a
                   href="
-                  https://github.com/SvitlanaRamanauskas/react_phone-catalog"
+                  https://github.com/SvitlanaRamanauskas"
                   className="nav__link"
                   target="_blank"
                 >
@@ -337,14 +338,24 @@ export const App = () => {
                 </a>
               </ul>
               <ul className="nav__item footer__item">
-                <NavLink to="/contacts" className="nav__link">
+                <a
+                  href="https://github.com/SvitlanaRamanauskas"
+                  className="nav__link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   contacts
-                </NavLink>
+                </a>
               </ul>
               <ul className="nav__item footer__item">
-                <NavLink to="/rights" className="nav__link">
+                <a
+                  href="https://github.com/SvitlanaRamanauskas"
+                  className="nav__link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   rights
-                </NavLink>
+                </a>
               </ul>
             </li>
           </nav>

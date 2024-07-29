@@ -43,6 +43,8 @@ export const Details: React.FC<Props> = ({}) => {
   const { productId } = useParams<{ productId?: string }>();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     setProductNotFound(false);
     if (productId) {
       setProductDetailsLoading(true);
