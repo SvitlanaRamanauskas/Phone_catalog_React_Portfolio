@@ -90,7 +90,7 @@ export const HomePage: React.FC = () => {
 
   return (
     <>
-      <h1 className="main__title title">Welcome to Nice Gadgets store!</h1>
+      <h1 className="main__title title">Welcome to PhoneNest store!</h1>
       <div className="main__home">
         <section className="banner">
           <div className="banner__container">
